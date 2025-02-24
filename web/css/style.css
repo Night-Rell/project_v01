@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto", serif;
+    background-color: #3b424a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 360px;
+    background-color: #3b424a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+}
+
+.nav-item {
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav-item.active {
+    color: white;
+}
+
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background-color: #e55b8a;
+    transition: all 0.3s ease;
+}
+
+.nav-line {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.date-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    color: grey;
+    transition: 0.5;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.date-display {
+    text-align: center;
+}
+
+#selected-day {
+    color: #fefefc;
+    font-size: 18px;
+}
+
+#selected-date {
+    color: #535a67;
+    font-size: 14px;
+}
+
+.schedule-table {
+    width: 360px;
+    margin-top: 20px;
+    font-size: 3.8vw;
+    border-collapse: collapse;
+}
+
+.schedule-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.schedule-table th {
+    color: #e55b8a;
+}
+
+.schedule-table td {
+    color: white;
+}
+
+.schedule-table td span {
+    color: #e55b8a;
+}
+
+/* .navigation {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+.day-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+} */
+

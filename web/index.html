@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <nav class="nav">
+            <div class="nav-item" data-tab="day">День</div>
+            <div class="nav-item" data-tab="week">Неделя</div>
+            <div class="underline"></div>
+            <div class="nav-line"></div>
+        </nav>
+        <div class="content">
+            <div class="day-content">
+                <div class="date-selector">
+                    <button class="arrow" id="prev-day">&lt;</button>
+                    <div class="date-display">
+                        <div id="selected-day" class=""></div>
+                        <div id="selected-date" class=""></div>
+                    </div>
+                    <button class="arrow" id="next-day">&gt;</button>
+                </div>
+                <table class="schedule-table" id="schedule-table">
+                    <thead>
+
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="week-content" style="display: none">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <nav>
+        <ul class="navigation">
+            <li>
+                <a href="">День</a>
+            </li>
+            <li>
+                <a href="">Неделя</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="day-container">
+        <button id="btn-left"><</button>
+        <div class="day-info">
+            <div class="day-name">Понедельник</div>
+            <div class="current-date">3 февраля 2025 г.</div>
+        </div>
+        <button id="btn-right">></button>
+    </div> -->
+
+    <!-- <div class="day-lessons">
+        <ol>
+            <li>
+                <span>08:00-08:50</span>
+                <span>Разговоры о важном</span>
+                <span>Да</span>
+            </li>
+            <li>
+                <span>08:00-08:50</span>
+                <span>Алгебра</span>
+                <span>Да</span>
+            </li>
+        </ol>
+    </div> -->
+    <!-- <div class="day-lessons">
+        <table>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>08:00-08:40</td>
+                    <td>Разговоры о важном</td>
+                    <td>Да</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>08:50-9:30</td>
+                    <td>Алгебра</td>
+                    <td>Нет</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
